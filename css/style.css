@@ -1,4 +1,57 @@
 
+
+.cabecera{
+    background-color: rgb(213, 213, 219);
+}
+
+.a-cabecera:hover{
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+
+.btn-cabecera{
+background-color: rgb(233, 122, 136);
+color: aliceblue;
+}
+
+.btn-cabecera:hover{
+    background-color: aliceblue;
+}
+
+.adopcion{
+    margin-top: 40px;
+}
+
+.card {
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    border-radius: 10px;
+    overflow: hidden; /* evita que algo se salga */
+    border: none; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    margin-bottom: 40px;
+}
+
+/* Efecto al pasar el ratón por toda la tarjeta */
+.card:hover {
+  transform: scale(1.05); /* agranda toda la tarjeta */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* sombra bonita */
+}
+
+/* (Opcional) efecto suave en el botón */
+.card .btn {
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.card .btn:hover {
+  background-color: #beaea9; /* cambia el color del botón */
+  transform: scale(1.1);     /* lo agranda un poquito */
+}
+
+.text-m{
+    margin: 40px;
+
+}
+
 .carousel-item {
     height: 900px;
     background-size: cover;
