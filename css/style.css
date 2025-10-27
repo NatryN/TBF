@@ -1,45 +1,45 @@
 
 
 .cabecera{
-    background-color: rgb(213, 213, 219);
+    background-color: rgb(213, 213, 219); /* Cambia el color de fondo*/
 }
 
 .a-cabecera:hover{
-    background-color: aliceblue;
-    border-radius: 5px;
+    background-color: aliceblue; /* Cambia el color de fondo*/
+    border-radius: 5px; /* Redondea las esquinas del borde con un radio*/
 }
 
 .btn-cabecera{
-background-color: rgb(233, 122, 136);
-color: aliceblue;
+background-color: rgb(233, 122, 136); /* Cambia el color de fondo*/
+color: aliceblue;  /* Cambia el color del texto*/
 }
 
 .btn-cabecera:hover{
-    background-color: aliceblue;
+    background-color: aliceblue; /* Cambia el color de fondo*/
 }
 
 .adopcion{
-    margin-top: 40px;
+    margin-top: 40px; /* Agrega un espacio de 40 píxeles por encima del elemento */
 }
 
 .card {
-    transition: transform 0.4s ease, box-shadow 0.4s ease;
-    border-radius: 10px;
-    overflow: hidden; /* evita que algo se salga */
-    border: none; 
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-    margin-bottom: 40px;
+    transition: transform 0.4s ease, box-shadow 0.4s ease; /* Aplica una animación suave al mover o cambiar la sombra de la tarjeta */
+    border-radius: 10px; /* Redondea las esquinas del borde con un radio*/
+    overflow: hidden; /* Evita que el contenido (como imágenes o texto) se salga del borde redondeado */
+    border: none; /* Elimina cualquier borde predeterminado */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Agrega una sombra suave debajo de la tarjeta */
+    margin-bottom: 40px; /* Deja un espacio de 40 píxeles debajo de cada tarjeta */
 }
 
-/* Efecto al pasar el ratón por toda la tarjeta */
-.card:hover {
+
+.card:hover {  /* Efecto al pasar el ratón por toda la tarjeta */
   transform: scale(1.05); /* agranda toda la tarjeta */
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* sombra bonita */
 }
 
-/* (Opcional) efecto suave en el botón */
+
 .card .btn {
-  transition: background-color 0.3s ease, transform 0.3s ease;
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Aplica una animación suave cuando cambia el color de fondo o la posición (transformación) del botón */
 }
 
 .card .btn:hover {
@@ -48,20 +48,44 @@ color: aliceblue;
 }
 
 .text-m{
-    margin: 40px;
+    margin: 40px; /* Agrega un espacio de 40 píxeles */
 
 }
 
 .carousel-item {
-    height: 900px;
-    background-size: cover;
-    background-position: center;
+    height: 900px; /* Define una altura fija de 900 píxeles para cada imagen o elemento del carrusel */
+    background-size: cover; /* Hace que la imagen de fondo cubra todo el área sin deformarse, aunque se recorte */
+    background-position: center; /* Centra la imagen de fondo dentro del contenedor */
 }
 
 .carousel-caption {
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 20px;
-    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5); /* Agrega un fondo negro semitransparente (50%) detrás del texto del carrusel */
+    padding: 20px; /* Añade un espacio interno de 20 píxeles alrededor del contenido */
+    border-radius: 10px; /* Redondea las esquinas del fondo con un radio de 10 píxeles */
+}
+
+.bi-house-heart-fill {
+  color: #E4405F; /* Rosa - representa cariño */
+}
+
+.bi-hand-thumbs-up-fill {
+  color: #e7cd83; /* Verde - representa aprobación o rapidez */
+}
+
+.bi-telephone-fill {
+  color: #007BFF; /* Azul - representa comunicación */
+}
+
+.bi-facebook {
+  color: #1877F2; /* Azul de Facebook */
+}
+
+.bi-instagram {
+  color: #E4405F; /* Rosa de Instagram */
+}
+
+.bi-youtube {
+  color: #FF0000; /* Rojo de YouTube */
 }
 
 
